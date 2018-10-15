@@ -48,6 +48,14 @@ public class Label: UILabel {
 
     // MARK: - Overrides
 
+    override public func layoutSubviews() {
+        // This layoutsubviews implementation makes line wrapping labels work nicely with autolayout.
+        super.layoutSubviews()
+        if frame.width > 0 {
+            preferredMaxLayoutWidth = frame.width
+        }
+    }
+
     override public var text: String? {
         didSet {
             self.attributedText = text?.styled(typestyle)
