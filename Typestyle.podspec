@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
   spec.module_name   = 'Typestyle'
   spec.swift_version = '4.2'
   spec.ios.deployment_target  = '9.0'
-  spec.source_files       = 'Typestyle/Source/*.swift'
+  spec.source_files       = 'Source/*.swift'
   spec.ios.framework  = 'UIKit'
 end
