@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.license       = { :type => 'BSD' }
   spec.homepage      = 'https://github.com/seatgeek/Typestyle'
   spec.author        = 'SeatGeek'
-  spec.summary       = 'ARC and GCD Compatible Reachability Class for iOS and OS X.'
+  spec.summary       = 'Custom fonts made easy, on iOS'
   spec.source        = { :git => 'https://github.com/seatgeek/Typestyle.git', :tag => 'v1.0.0' }
   spec.module_name   = 'Typestyle'
   spec.swift_version = '4.2'
